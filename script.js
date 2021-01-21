@@ -32,7 +32,7 @@ else if (useLower === "no"){
 if ( useNumb === "yes"){
   var useSpec = prompt("would you like to include special characters?")
 }
-else if (useSpec = "yes")
+else {useSpec = "yes"}
 // if no must contain special character  and no prompt special character and alert provided indicating special characters will be used 
 // if yes allow user to select if they would also like upper case letters
 
